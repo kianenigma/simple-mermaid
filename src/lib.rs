@@ -144,6 +144,10 @@ macro_rules! _mermaid_inner {
 #[doc(hidden)]
 #[macro_export]
 macro_rules! _mermaid_background {
-    (framed) =>  { "" };
-    (transparent) => { "background: transparent;" };
+    (framed) => {
+        ""
+    };
+    (transparent) => {
+        "background: transparent;"
+    };
 }
